@@ -31,27 +31,26 @@ Python 3.7 or greater
 
 * Mac OS/Linux
 ```shell
-git clone https://github.com/Twissed/twissed.git
 python -m pip install twissed
 ```
 
 * Windows
 ```shell
-git clone https://github.com/Twissed/twissed.git
 py -m pip install twissed
 ```
 
 
 #### With the download of the project
 
-
 * Mac OS/Linux
 ```shell
+git clone https://github.com/Twissed/twissed.git
 python -m pip install -e .
 ```
 
 * Windows
 ```shell
+git clone https://github.com/Twissed/twissed.git
 py -m pip install -e .
 ```
 
