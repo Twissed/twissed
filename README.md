@@ -1,5 +1,10 @@
 # Twissed
 
+[![pypi version](https://img.shields.io/pypi/v/fbpic.svg)](https://pypi.python.org/pypi/fbpic)
+[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
+![Release](https://img.shields.io/github/release-date/Twissed/twissed
+)
+
 ## Overview
 
 Twissed is a Python package 🐍 that provides a large number of data analysis tools for **beam dynamics** and **laser wakefield acceleration** simulations.
@@ -24,7 +29,21 @@ Python 3.7 or greater
 
 ### Installation
 
-After downloading the project:
+* Mac OS/Linux
+```shell
+git clone https://github.com/Twissed/twissed.git
+python -m pip install twissed
+```
+
+* Windows
+```shell
+git clone https://github.com/Twissed/twissed.git
+py -m pip install twissed
+```
+
+
+#### With the download of the project
+
 
 * Mac OS/Linux
 ```shell
