@@ -28,7 +28,7 @@ from .utils.units import *
 
 from typing import Dict, List
 
-__version__: str = "2.1.0"
+__version__: str = "2.1.1"
 
 __date__: str = "2023/01/25"
 
