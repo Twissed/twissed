@@ -93,7 +93,7 @@ def happi_probe1D(step, directory, timestep, lambda0, omega0, nc, **kwargs):
 
     step.zfield_a0 = step.zfield[np.argmax(np.abs(step.a))]
 
-    step.a0_max = np.amax(step.a)
+    step.a0_max = np.amax(step.a01D)
 
     # Electric field in z
     step.Ez1D = np.asarray(probe.Probe0("Ex", timesteps=timestep).getData())[0, :] * (

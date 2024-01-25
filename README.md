@@ -9,7 +9,21 @@
 
 Twissed is a Python package 🐍 that provides a large number of data analysis tools for **beam dynamics** and **laser wakefield acceleration** simulations.
 
-Twissed is multi-OS (Windows, Linux, Mac) and can be easily installed everywhere thanks to its low number of dependencies (numpy, pandas, scipy, h5py). It is especially made to run on HPC clusters. 
+Twissed is also a robust API between beam dynamics and laser-plasma simulation codes.
+
+Twissed is multi-OS (Windows, Linux, Mac) and can be easily installed everywhere thanks to its low number of dependencies (numpy, pandas, scipy, h5py). It is especially made to run on HPC clusters (graphic packages, such as matplotlib are optional). 
+
+![](https://twissed.github.io/_images/79f9ccfa14d8863894db9132e97ba6441951affc.png)
+
+## Documentation and tutorials
+
+The documentation is here: https://twissed.github.io
+
+Tutorials are available here: https://github.com/Twissed/twissed_tutorial
+
+Source code are here: https://github.com/Twissed/twissed
+
+## API
 
 Twissed can read and write data from several sources
 
@@ -30,30 +44,30 @@ Python 3.7 or greater
 ### Installation
 
 * Mac OS/Linux
+
 ```shell
 python -m pip install twissed
 ```
 
 * Windows
+
 ```shell
 py -m pip install twissed
 ```
 
 
-#### With the download of the project
+#### It is also possible to download the source code for installation 
 
 * Mac OS/Linux
+
 ```shell
 git clone https://github.com/Twissed/twissed.git
 python -m pip install -e .
 ```
 
 * Windows
+
 ```shell
 git clone https://github.com/Twissed/twissed.git
 py -m pip install -e .
 ```
-
-## Tutorial
-
-Examples Twissed use are available at https://github.com/Twissed/Twissed_tutorial
