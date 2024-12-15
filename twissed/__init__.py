@@ -32,13 +32,6 @@ __version__: str = "2.1.1"
 
 __date__: str = "2023/01/25"
 
-__contributors__: Dict = {
-    "Damien Minenna (CEA/Irfu)": "damien.minenna@cea.fr",
-    "Antoine Chancé (CEA/Irfu)": "antoine.chance@cea.fr",
-    "Samuel Marini (CEA/Irfu)": "samuel.marini@cea.fr",
-    "Francesco Massimo (LPGP/CNRS)": "francesco.massimo@universite-paris-saclay.fr",
-    "Nicolas Pichoff (CEA/Irfu)": "nicolas.pichoff@cea.fr",
-}
 
 __codes_available__: List[str] = ["fbpic", "happi", "smilei", "tracewin", "astra"]
 
